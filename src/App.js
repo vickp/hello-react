@@ -3,9 +3,11 @@ import React, { Component } from 'react';
 function App() {
 
   return (
-    <h1>
-      <p>Hello, AWS!</p>
-    </h1>
+    <div className = "App">
+      <header className = "App-header">
+        <img src = {logo} className = "App-logo" alt = "logo" />
+      </header>
+    </div>
   );
 }
 
